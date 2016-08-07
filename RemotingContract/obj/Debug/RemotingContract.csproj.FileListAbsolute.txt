@@ -1,0 +1,55 @@
+C:\VRC_NEW\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\VRC_NEW\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\VRC_NEW\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\VRC_NEW\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\VRC_NEW\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+D:\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+D:\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+D:\VRCNEW\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+D:\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+D:\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\VRC_3.6\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\VRC_3.6\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\VRC_3.6\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\VRC_3.6\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\VRC_3.6\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\prj\VRC_18.6\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\prj\VRC_18.6\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\prj\VRC_18.6\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\prj\VRC_18.6\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\prj\VRC_18.6\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_18.6\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_18.6\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_18.6\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_18.6\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_18.6\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\RemotingContract\obj\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\RemotingContract\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\RemotingContract\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\RemotingContract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\RemotingContract\obj\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\RemotingContract\obj\Debug\RemotingContract.pdb

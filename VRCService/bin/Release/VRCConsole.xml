@@ -1,0 +1,1282 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VRCConsole</name>
+    </assembly>
+    <members>
+        <member name="T:CodeBureau.StringEnum">
+            <summary>
+            Helper class for working with 'extended' enums using <see cref="T:CodeBureau.StringValueAttribute"/> attributes.
+            </summary>
+        </member>
+        <member name="M:CodeBureau.StringEnum.#ctor(System.Type)">
+            <summary>
+            Creates a new <see cref="T:CodeBureau.StringEnum"/> instance.
+            </summary>
+            <param name="enumType">Enum type.</param>
+        </member>
+        <member name="M:CodeBureau.StringEnum.GetStringValue(System.String)">
+            <summary>
+            Gets the string value associated with the given enum value.
+            </summary>
+            <param name="valueName">Name of the enum value.</param>
+            <returns>String Value</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.GetStringValues">
+            <summary>
+            Gets the string values associated with the enum.
+            </summary>
+            <returns>String value array</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.GetListValues">
+            <summary>
+            Gets the values as a 'bindable' list datasource.
+            </summary>
+            <returns>IList for data binding</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.IsStringDefined(System.String)">
+            <summary>
+            Return the existence of the given string value within the enum.
+            </summary>
+            <param name="stringValue">String value.</param>
+            <returns>Existence of the string value</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.IsStringDefined(System.String,System.Boolean)">
+            <summary>
+            Return the existence of the given string value within the enum.
+            </summary>
+            <param name="stringValue">String value.</param>
+            <param name="ignoreCase">Denotes whether to conduct a case-insensitive match on the supplied string value</param>
+            <returns>Existence of the string value</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.GetStringValue(System.Enum)">
+            <summary>
+            Gets a string value for a particular enum value.
+            </summary>
+            <param name="value">Value.</param>
+            <returns>String Value associated via a <see cref="T:CodeBureau.StringValueAttribute"/> attribute, or null if not found.</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.Parse(System.Type,System.String)">
+            <summary>
+            Parses the supplied enum and string value to find an associated enum value (case sensitive).
+            </summary>
+            <param name="type">Type.</param>
+            <param name="stringValue">String value.</param>
+            <returns>Enum value associated with the string value, or null if not found.</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.Parse(System.Type,System.String,System.Boolean)">
+            <summary>
+            Parses the supplied enum and string value to find an associated enum value.
+            </summary>
+            <param name="type">Type.</param>
+            <param name="stringValue">String value.</param>
+            <param name="ignoreCase">Denotes whether to conduct a case-insensitive match on the supplied string value</param>
+            <returns>Enum value associated with the string value, or null if not found.</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.IsStringDefined(System.Type,System.String)">
+            <summary>
+            Return the existence of the given string value within the enum.
+            </summary>
+            <param name="stringValue">String value.</param>
+            <param name="enumType">Type of enum</param>
+            <returns>Existence of the string value</returns>
+        </member>
+        <member name="M:CodeBureau.StringEnum.IsStringDefined(System.Type,System.String,System.Boolean)">
+            <summary>
+            Return the existence of the given string value within the enum.
+            </summary>
+            <param name="stringValue">String value.</param>
+            <param name="enumType">Type of enum</param>
+            <param name="ignoreCase">Denotes whether to conduct a case-insensitive match on the supplied string value</param>
+            <returns>Existence of the string value</returns>
+        </member>
+        <member name="P:CodeBureau.StringEnum.EnumType">
+            <summary>
+            Gets the underlying enum type for this instance.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:CodeBureau.StringValueAttribute">
+            <summary>
+            Simple attribute class for storing String Values
+            </summary>
+        </member>
+        <member name="M:CodeBureau.StringValueAttribute.#ctor(System.String)">
+            <summary>
+            Creates a new <see cref="T:CodeBureau.StringValueAttribute"/> instance.
+            </summary>
+            <param name="value">Value.</param>
+        </member>
+        <member name="P:CodeBureau.StringValueAttribute.Value">
+            <summary>
+            Gets the value.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:vrc.ServerEntry">
+            <summary>
+            struct to hold server name and port
+            </summary>
+        </member>
+        <member name="T:vrc.CmdCommunication">
+            <summary>
+            Class for communication with LDC-Server for sending and receiving commands
+            </summary>
+        </member>
+        <member name="T:vrc.Communication">
+            <summary>
+            Class for communication with LDC-Server and its Database
+            used for Login purpose
+            </summary>
+        </member>
+        <member name="M:vrc.AsynchSocketManager.setTimeOut(System.Int32)">
+            <summary>
+            let client change the time out value of socket
+            </summary>
+            <param name="timeOut">
+            millisenconds for timeout
+            0: never time out
+            </param>
+        </member>
+        <member name="F:vrc.Communication.requestSucceedEvent">
+            <summary>
+            events used for examine whether the request is successful on ldcserver
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:vrc.Communication.initCommunication" -->
+        <member name="M:vrc.Communication.getDBOfVRServer">
+            <summary>
+            get the Database of VR Server (obtained during initCommunication())
+            </summary>
+            <returns>Database Server</returns>
+        </member>
+        <member name="M:vrc.Communication.sendMessage(vrc.LDCCmd,System.String)">
+            <summary>
+            Send a message to the LDC-Server and retrieve the reply (asychronous) 
+            </summary>
+            <param name="req_categorieNumber"> category number of the message</param>
+            <param name="req_Message">message content</param>
+            <returns> succeed / fail </returns>
+        </member>
+        <member name="M:vrc.Communication.getUserID(System.String)">
+            <summary>
+            Get the User-ID from the database of the LDC-Server (OLEDB)
+            </summary>
+            <returns>User-ID</returns>
+        </member>
+        <member name="M:vrc.Communication.getLastError">
+            <summary>
+            return the last error string 
+            </summary>
+            <returns>last error in sendMessage</returns>
+        </member>
+        <member name="M:vrc.Communication.isDown(System.Int32)">
+            <summary>
+            examine whether the ldcserver has gone down for milliumSeconds (calculated from initFailure)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.Communication.Dispose">
+            <summary>
+            realse the socket resource
+            </summary>
+        </member>
+        <member name="M:vrc.CmdCommunication.handleCmdReply(vrc.AsynchSocketManager,System.String)">
+            <summary>
+            while we use asynchronous socket, 
+            this method is called each time when the reply message from LDC-Server arrives
+            (only for command-socket)
+            </summary>
+            <param name="socketMgr"></param>
+            <param name="msg"></param>
+        </member>
+        <member name="T:vrc.TooManyRetryTimesException">
+            <summary>
+            Exception : Retry times exceed threshold by sending command to LDC-Server
+            </summary>
+        </member>
+        <member name="T:vrc.RemotingService">
+            <summary>
+            The only class in VRC-Server for remoting communication
+            Expose the important methods for remote configruation and monitoring.
+            </summary>
+        </member>
+        <member name="M:vrc.RemotingService.UpdateConfiguration(GlobalObjects.DSVRCConfig)">
+            <summary>
+            Called by the web-service when it takes a new settings from client
+            In consequence, the method will retrieve the new settings from web-service 
+            </summary>
+        </member>
+        <member name="M:vrc.RemotingService.GetMonVals">
+            <summary>
+            Called by web-service continuely with given interval 
+            to retrieve online monitored values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:vrc.LogWriter">
+            <summary>
+            class for writing log info into file
+            support different the log level 
+            uses: Configuration, for log file's location
+            </summary>
+        </member>
+        <member name="M:vrc.LogWriter.logAsEvent(System.String,System.Diagnostics.EventLogEntryType)">
+            <summary>
+            Thie method register the message into event logger 
+            The event logger can be access in Windows from remote
+            </summary>
+            <param name="message">the message</param>
+            <param name="evenType">the event entry type (error, warning, information)</param>
+        </member>
+        <member name="M:vrc.LogWriter.append(System.String,vrc.LogWriter._LEVEL)">
+            <summary>
+            Method to write the message into the log file depending on the specific debug level
+            </summary>
+            <param name="message">the message</param>
+            <param name="level">the debug level</param>
+        </member>
+        <member name="M:vrc.LogWriter.info(System.String)">
+            <summary>
+            log information line (console, logfile, eventlogger)
+            </summary>
+            <param name="pText">string to log</param>
+        </member>
+        <member name="M:vrc.LogWriter.error(System.String)">
+            <summary>
+            log error message  (console, logfile, eventlogger)
+            </summary>
+            <param name="pText">string to log</param>
+        </member>
+        <member name="M:vrc.LogWriter.warn(System.String)">
+            <summary>
+            log warning message  (console, logfile, eventlogger)
+            </summary>
+            <param name="pText">string to log</param>
+        </member>
+        <member name="M:vrc.LogWriter.debug(System.String)">
+            <summary>
+            log warning message (console, logfile)
+            </summary>
+            <param name="pText">string to log</param>
+        </member>
+        <member name="T:vrc.Monitoring">
+            <summary>
+            The Monitoring class is for 
+            Save the event and status of the application
+            Calculate and provides status information
+            </summary>
+        </member>
+        <member name="M:vrc.Monitoring.GetLDCServersWithActiveCalls">
+            <summary>
+            return the online ldcservers (subset of LDCServerConnects) with their active calls
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.Monitoring.notifyCallConnected(vrc.ServerEntry)">
+            <summary>
+            Invoked when a new call is started on the LDC Server
+            </summary>
+            <param name="ldcServer">the ldcServer name</param>
+        </member>
+        <member name="M:vrc.Monitoring.notifyCallDisconnected(vrc.ServerEntry)">
+            <summary>
+            Invoked when a call is disconnected on the LDCServer
+            </summary>
+            <param name="ldcServer">the LDCServer name</param>
+        </member>
+        <member name="M:vrc.Monitoring.notifyClientConnected">
+            <summary>
+            Increase the number of connected clients by 1.
+            </summary>
+        </member>
+        <member name="M:vrc.Monitoring.notifyClientDisconnected">
+            <summary>
+            Descrease the number of connected clients by 1.
+            </summary>
+        </member>
+        <member name="T:vrc.Configuration">
+            <summary>
+            Reads and sets the configuration.
+            (Static class)
+            </summary>
+            
+        </member>
+        <member name="M:vrc.Configuration.registerObserver(vrc.IConfigurationListener)">
+            <summary>
+            Register a IConfigurationListener
+            </summary>
+            <param name="listner">the listener object who implements the IConfigurationListener interface</param>
+        </member>
+        <member name="M:vrc.Configuration.removeObserver(vrc.IConfigurationListener)">
+            <summary>
+            Unregister an IConfigurationListener
+            </summary>
+            <param name="ldcClient">the listener object who implements the IConfigurationListener interface</param>
+        </member>
+        <member name="M:vrc.Configuration.notifyOberservers">
+            <summary>
+            Notify all the observers of the configuration change
+            </summary>
+        </member>
+        <member name="M:vrc.Configuration.loadConfig(GlobalObjects.DSVRCConfig)">
+            <summary>
+            Load the configuration values passed by vcrds
+            If the vcrds is null
+            then loads the local configuration instead, which is saved as
+            the most recent remote configuration loaded successfully
+            </summary>
+            <returns>succeed/fail</returns>
+        </member>
+        <member name="M:vrc.Configuration.loadLocalConfig">
+            <summary>
+            Load the configuration from local xml file
+            </summary>
+            <returns>succeed/fail</returns>
+        </member>
+        <member name="M:vrc.Configuration.initialize">
+            <summary>
+            Help method - initialize the data members with a typed dataset
+            </summary>
+            <param name="configDS">the typed Dataset</param>
+        </member>
+        <member name="M:vrc.Configuration.reloadConfiguration(GlobalObjects.DSVRCConfig)">
+            <summary>
+            listener method called when the remote configuration changes
+            (per Remoting)
+            </summary>
+        </member>
+        <member name="M:vrc.Configuration.getConfiguration">
+            <summary>
+            return the actual configuration used by VRC
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:vrc.Configuration.logDirectory">
+            <summary>
+             LogWriter - full path for logs
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.logLevel">
+            <summary>
+            LogWriter - default logging level (_OFF, _ERROR, _DEBUG, _INFO, _ALL )
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.smtpServer">
+            <summary>
+            mailSender - for mail notification
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.smtpServerPort">
+            <summary>
+            mailSender - smtp Server
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.mailRecipient">
+            <summary>
+            mailSender - recipient's mail address
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.vrcpPort">
+            <summary>
+            clientConnections - port number for VRCP communication
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.ldcServerList">
+            <summary>
+            serverConnections - list of LDC server
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.ldcTimout">
+            <summary>
+            serverConnections - LDC communication timeout in seconds
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.pingInterval">
+            <summary>
+            connectionGuard - time interval for LDC server ping
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.loginInterval">
+            <summary>
+            time interval for reconnection trial to the LDC server
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.downTime">
+            <summary>
+            maximal down time for ldcserver before escalation triggers
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.pollingInterval">
+            <summary>
+            time intervall for poolObject check
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.objectLifeTime">
+            <summary>
+            poolOptimizer - life time of pool objects without action 
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.commandIteration">
+            <summary>
+            ldcClient - number of retrials for an  LDC server connection
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.holdingTime">
+            <summary>
+            ldcClient - time period between command repetition
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.trafficDuration">
+            <summary>
+            ldcClient - maximal traffic duration
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.dsn">
+            <summary>
+            transactionSaver - connection string for VRC data base
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.vrcdbServer">
+            <summary>
+            transactionSaver - name of VRC DB server
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.dbUser">
+            <summary>
+            transactionSaver - DB user name
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.dbPasswd">
+            <summary>
+            transactionSaver - DB users password
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.dbName">
+            <summary>
+            transactionSaver -  name of the VRC DB
+            </summary>
+        </member>
+        <member name="P:vrc.Configuration.exportPathFileName">
+            <summary>
+            transactionSaver - full path and filename for export file
+            </summary>
+        </member>
+        <member name="T:vrc.Agent">
+            <summary>
+            Obsolete, is not used
+            </summary>
+        </member>
+        <member name="T:vrc.Pars">
+            <summary>
+            super class to represent the parameters from client command
+            </summary>
+        </member>
+        <member name="T:vrc.LoginCmdPars">
+            <summary>
+            class to represent the parameters sent with the USER_LOGIN request
+            </summary>
+        </member>
+        <member name="T:vrc.SRRCmdPars">
+            <summary>
+            class to represent the parameters sent with the SAVE_RECORDING_REFERENCE request
+            </summary>
+        </member>
+        <member name="T:vrc.SRDCmdPars">
+            <summary>
+            class to represent the parameters sent with the SAVE_RECORDING_DATA request
+            </summary>
+        </member>
+        <member name="T:vrc.SIFCmdPars">
+            <summary>
+            class to represent the parameters sent with the SET_INFO_FLAG request
+            </summary>
+        </member>
+        <member name="T:vrc.Session">
+            <summary>
+            The Session represents a connection with the client
+            </summary>
+        </member>
+        <member name="M:vrc.Session.#ctor(System.Net.Sockets.Socket)">
+            <summary>
+            Constructor - create a new session for a client's connection
+            </summary>
+            <param name="clientSocket">socket connection for the client</param>
+        </member>
+        <member name="M:vrc.Session.delegateCmd(System.String)">
+            <summary>
+            Parse the incoming string and get the command together with uid
+            delegate the command to the LDC-Client by adding the command into 
+            the LDC-Client's command queue
+            </summary>
+            <param name="cmdStr">the string sent by the client</param>
+        </member>
+        <member name="M:vrc.Session.RepeatedLoginErr(vrc.VRCPCmd,System.Guid)">
+            <summary>
+            Construct the error reply message when an old client is already logged in 
+            </summary>
+            <param name="vRCPCmd">VRCPCmd.USER_LOGIN</param>
+            <param name="guid">unique_id of the old client</param>
+            <returns>reply message indicating the error</returns>
+        </member>
+        <member name="M:vrc.Session.findExistingClient(vrc.CommandObject)">
+            <summary>
+            Used to find the LDCClient instance in the Object Pool which 
+            has already done the the login(same login parameters as cmdObj )
+            </summary>
+            <param name="cmdObj">the cmdObj representing USER_LOGIN</param>
+            <returns>the LDCClient instance if found one; 
+            otherwise, null </returns>
+        </member>
+        <member name="M:vrc.Session.InvalidUid(vrc.VRCPCmd)">
+            <summary>
+            This method returns a special failure message
+            when the uid from client does not exist in the
+            object pool.  
+            </summary>
+            <param name="cmd">the vrcp command</param>
+            <returns>failure message with nullified uid</returns>
+        </member>
+        <member name="M:vrc.Session.parseCmd(System.String)">
+            <summary>
+            Parse the request string from client (read from socket) according to VRCP protocal
+            extract the relavate information (command, uid, etc) and combine them into the command object
+            </summary>
+            <param name="request">the request string sent from Client</param>
+            <returns>
+             null: wrong syntax in the request, command parsing failed
+             CommandObject: command together with its parameters
+             (The Cmd member is set to VRCPCmd.Unknown if the command is unknown)
+            </returns>
+        </member>
+        <member name="M:vrc.Session.getCmd(System.String)">
+            <summary>
+            Find out the VRCP command in request string by enumerating
+            all the commands in VRCPCmd 
+            </summary>
+            <param name="request">request string</param>
+            <returns>VRCP command</returns>
+        </member>
+        <member name="M:vrc.Session.getUid(System.String)">
+            <summary>
+            Help method to extract Unique ID from request string
+            </summary>
+            <param name="request">request string</param>
+            <returns>
+            Unique ID
+            Guid.Empty when fail to extract unique ID 
+            </returns>
+        </member>
+        <member name="M:vrc.Session.Dispose">
+            <summary>
+            This method is called when session ends (client disconnected):
+            1) The socket with client will be closed 
+            2) The data member "currentSession" of the bounded LDCClient is reset to null (so that the PoolOptimizer 
+            is allowed to remove the LDCClient)
+            3) The Monitoring class will be notified to count down the number of connected clients
+            </summary>
+        </member>
+        <member name="T:vrc.LDCCmd">
+            <summary>
+            All the available category code (REQUEST/RESPONSE) of LDC-Server 
+            from onsoft
+            use user-defined Attribute (see StringEnum.cs) to support String-valued Emnumeration
+            </summary>
+        </member>
+        <member name="T:vrc.DBMgr">
+            <summary>
+            the DB manager for VRC DB
+            </summary>
+        </member>
+        <member name="T:vrc._Thread">
+            <summary>
+            Base class for a thread
+            </summary>
+        </member>
+        <member name="M:vrc._Thread.ThreadProc">
+            <summary>
+            Entry point for the thread
+            </summary>
+        </member>
+        <member name="F:vrc._Thread._stopper">
+            <summary>
+             signal event for stopping the thread
+            </summary>
+        </member>
+        <member name="M:vrc._Thread.run">
+            <summary>
+            Start the thread
+            </summary>
+        </member>
+        <member name="M:vrc._Thread.stop">
+            <summary>
+            Stop the thread.
+            Blocking call. Return when the thread is stopped
+            </summary>
+        </member>
+        <member name="T:vrc.VRCController">
+            <summary>
+            Startpoint of VRC service.
+            </summary>
+        </member>
+        <member name="M:vrc.VRCController.Main(System.String[])">
+            <summary>
+            The entry point for starting as console application.
+            </summary>
+        </member>
+        <member name="M:vrc.VRCController.stop">
+            <summary>
+            Hind the stop method of base class
+            Stop thread and remoting
+            </summary>
+        </member>
+        <member name="M:vrc.VRCController.stopRemoting">
+            <summary>
+            stop remoting and release the tcp port
+            </summary>
+        </member>
+        <member name="M:vrc.VRCController.startRemoting">
+            <summary>
+            Create a TCP channel to support remoting communication
+            </summary>
+        </member>
+        <member name="T:vrc.MailSender">
+            <summary>
+            Send mail to Administrator using SMTP 
+            </summary>
+        </member>
+        <member name="M:vrc.MailSender.#ctor">
+            <summary>
+            Private constructor to prevent instantiation
+            </summary>
+        </member>
+        <member name="M:vrc.MailSender.#cctor">
+            <summary>
+            Static constructor that gets
+            called only once during the application's lifetime.
+            </summary>
+        </member>
+        <member name="M:vrc.MailSender.send(System.String,System.String)">
+            <summary>
+            Send an Email with subject and message (sychronised method)
+            </summary>
+            <param name="subject"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:vrc.MailSender.send(System.String)">
+            <summary>
+            Send an Email with the given message (use the default subject) 
+            </summary>
+            <param name="message">message content</param>
+        </member>
+        <member name="P:vrc.MailSender.Instance">
+            <summary>
+            Static property to retrieve the instance of the MailSender
+            </summary>
+        </member>
+        <member name="T:vrc.LDCCMsg">
+            <summary>
+            class representing all the available LDCC messages
+            </summary>
+        </member>
+        <member name="T:vrc.VRCPCmd">
+            <summary>
+            enumerate all the VRCP commands (Request / Reply)
+            </summary>
+        </member>
+        <member name="T:vrc.IConfigurationListener">
+            <summary>
+            All the classes who care the change of configuration 
+            should implement this interface
+            </summary>
+        </member>
+        <member name="M:vrc.IConfigurationListener.notifyConfigurationChanged">
+            <summary>
+            method which is called when configuration is changed
+            </summary>
+        </member>
+        <member name="M:vrc.HelperTools.str2stream(System.String)">
+            <summary>
+            convert the ASCII encoded string into a memory stream  
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.HelperTools.parseStationId(System.String,System.String)">
+            <summary>
+            parse the repsonse msg and extract the station id
+            </summary>
+            <param name="rep_content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.HelperTools.parseAgentId(System.String,System.String)">
+            <summary>
+            parse the repsonse msg and extract the station id
+            </summary>
+            <param name="rep_content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.HelperTools.parseTrafficId(System.String,System.String)">
+            <summary>
+            parse the traffic id from the message
+            </summary>
+            <param name="rep_content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.HelperTools.parseCategory(System.String)">
+            <summary>
+            get LDCCmd Category from its string representing 
+            </summary>
+            <param name="rep_head"></param>
+            <returns></returns>
+        </member>
+        <member name="T:vrc.PoolOptimizer">
+            <summary>
+            PoolOptimizer purges the idle PoolObject (not active for longer than 
+            predefined threshold(see Configuration.objectLifeTime)) from the object pool.
+            Run periodically (see Configuration.PollingInterval)
+            </summary>
+        </member>
+        <member name="M:vrc.PoolOptimizer.#ctor">
+            <summary>
+            Private constructor to prevent instantiation
+            </summary>
+        </member>
+        <member name="M:vrc.PoolOptimizer.#cctor">
+            <summary>
+            Static constructor that gets called only once during the application's lifetime.
+            </summary>
+        </member>
+        <member name="M:vrc.PoolOptimizer.ThreadProc">
+            <summary>
+            pool optimizer logic
+            </summary>
+        </member>
+        <member name="P:vrc.PoolOptimizer.Instance">
+            <summary>
+            Static property to retrieve the instance of the Pool Manager
+            </summary>
+        </member>
+        <member name="T:vrc.PoolManager">
+            <summary>
+            Pool of LDCClient and TransactionSaver objects.
+            </summary>
+        </member>
+        <member name="M:vrc.PoolManager.#ctor">
+            <summary>
+            Private constructor to prevent instantiation
+            </summary>
+        </member>
+        <member name="M:vrc.PoolManager.#cctor">
+            <summary>
+            Static constructor that gets
+            called only once during the application's lifetime.
+            </summary>
+        </member>
+        <member name="M:vrc.PoolManager.AddObject(vrc.LDCClient)">
+            <summary>
+            Adds an object to the pool
+            </summary>
+            <param name="obj">Object to be added</param>
+            <returns>True if success, false otherwise</returns>
+        </member>
+        <member name="M:vrc.PoolManager.RemoveObject(vrc.LDCClient)">
+            <summary>
+            Removes an PoolObject from the pool
+            </summary>
+            <param name="uid">Uid if object to remove from the pool</param>
+            <returns>The object if success, null otherwise</returns>
+        </member>
+        <member name="M:vrc.PoolManager.ReleaseObject(System.Guid)">
+            <summary>
+            Returns an PoolObject from the pool
+            </summary>
+            <param name="obj">Object to get from the pool</param>
+            <returns>The object if success, null otherwise</returns>
+        </member>
+        <member name="M:vrc.PoolManager.showAll">
+            <summary>
+            just f黵 debugging (delete it)
+            </summary>
+        </member>
+        <member name="P:vrc.PoolManager.Instance">
+            <summary>
+            Static property to retrieve the instance of the Pool Manager
+            </summary>
+        </member>
+        <member name="P:vrc.PoolManager.ObjPool">
+            <summary>
+            Returns the object pool
+            </summary>
+        </member>
+        <member name="P:vrc.PoolManager.CurrentObjectsInPool">
+            <summary>
+            Property that represents the current number of objects in the pool
+            </summary>
+        </member>
+        <member name="T:vrc.PoolObject">
+            <summary>
+            Maps LDCClient and TransactionSaver reference with an Uid and stores the date of its last use
+            </summary>
+        </member>
+        <member name="T:vrc.MonCommunication">
+            <summary>
+            Class for communication with LDC-Server for monitoring
+            </summary>
+        </member>
+        <member name="M:vrc.MonCommunication.markTranBegin(vrc.MonCommunication,System.String,System.String)">
+            <summary>
+            mark begin of a new transaction
+            1.set new traffic id
+            2.update the current allowed ldcserver for the correspondent ldcclient 
+            </summary>
+        </member>
+        <member name="M:vrc.MonCommunication.markTranEnd(vrc.MonCommunication,System.String,System.String)">
+            <summary>
+            mark end of the transaction
+            </summary>
+        </member>
+        <member name="M:vrc.MonCommunication.runUpdateProc(System.String)">
+            <summary>
+            set the recording_inserted flag for the record with given VOICEFILE_ID in VRDb
+            </summary>
+            <param name="trafficId"></param>
+        </member>
+        <member name="T:vrc.ConnectionGuard">
+            <summary>
+            Run as Thread to check connection availability with LDC-Server in Ping-Pong way
+            Let LDCClient(s) (un)register themselves as observer(s) so that they can get notified
+            when the connection is lost/reestablished
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.#ctor">
+            <summary>
+            Private constructor to prevent instantiation
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.loadServerList">
+            <summary>
+            Load the ldc-servers from Configuration and
+            initialize the m_ldcServerList by generating
+             "ldcServer,communication" pairs
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.stop">
+            <summary>
+            Stop the ConnectionGuard
+            hide the inherited stop method
+            We need to stop the two sub-threads explicitly
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.unRegisterObserver(vrc.LDCClient,vrc.ServerEntry)">
+            <summary>
+            Unregister a ldcClient from the observer for one given ldcServer
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.registerObserver(vrc.LDCClient,vrc.ServerEntry)">
+            <summary>
+            Register a ldcClient as the observer for one ldcServer(online) and for all 
+            the offline ldcServers
+            </summary>
+        </member>
+        <member name="M:vrc.ConnectionGuard.removeObserver(vrc.LDCClient)">
+            <summary>
+            Remove an ldcClient from all the oberserverList in which it has registered
+            </summary>
+            <param name="ldcClient">ldcClient</param>
+        </member>
+        <member name="M:vrc.ConnectionGuard.getLDCClientListOfServer(vrc.ServerEntry)">
+            <summary>
+            Get the List of LDCClients connected to the specific LDCServer
+            </summary>
+            <param name="ldcServer">the LDCServer</param>
+            <returns>List of ldcclients (as Reference)</returns>
+        </member>
+        <member name="M:vrc.ConnectionGuard.getOnlineLDCServersList">
+            <summary>
+            return all the online LDC Servers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.ConnectionGuard.getOnlineLDCServerCommList">
+            <summary>
+            return all the online LDCServerComms
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.ConnectionGuard.getOfflineLDCServersList">
+            <summary>
+            return all the offline LDC Servers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.ConnectionGuard.getOfflineLDCServerCommList">
+            <summary>
+            return all the offline LDCServerComms
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.ConnectionGuard.notifyConfigurationChanged">
+            <summary>
+            notify all the listeners about the configuration changed event
+            </summary>
+        </member>
+        <member name="P:vrc.ConnectionGuard.Instance">
+            <summary>
+            Static method to retrieve instance of ConnectionGuard
+            </summary>
+            <param name="pCommunication">Communication object</param>
+            <param name="pTransaction">Transaction object</param>
+            <returns></returns>
+        </member>
+        <member name="T:vrc.ConnectionGuard._ReconnectThread">
+            <summary>
+            Helper class - Thread for reconnecting the offline servers 
+            </summary>
+        </member>
+        <member name="T:vrc.TransactionSaver">
+            <summary>
+            Summary description for TransactionSaver.
+            </summary>
+        </member>
+        <member name="F:vrc.TransactionSaver.mSQLServer">
+            Paramerters for connecting to the DB (save transaction data)
+            
+        </member>
+        <member name="M:vrc.TransactionSaver.setCRMSystem(System.String)">
+            <summary>
+            Name of the CRM-System.
+            Corresponds to the field CRM_SYSTEM in the MAPPING table
+            </summary>
+            <param name="pCRMSystem"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setVRSystem(System.String)">
+            <summary>
+            Name of the VR-System.
+            Corresponds to the field VR-SYSTEM in the MAPPING table
+            </summary>
+            <param name="pVRSystem"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setDBServerOfCRMSystem(System.String)">
+            <summary>
+            Name of the database of the CRM-System. 
+            Corresponds to the field CRM_DBSERVER in the RECORDING table
+            </summary>
+            <param name="pDBServerOfCRMSystem"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setDBServerOfVRSystem(System.String)">
+            <summary>
+            Name of the database of VR-System.
+            Corresponds to the field VR_DBSERVER of the RECORDING table
+            </summary>
+            <param name="pDBServerOfVRSystem"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setProject(System.String)">
+            <summary>
+            Name of the project
+            Corresponds to the field PROJECT of the RECORDING table
+            </summary>
+            <param name="pProject"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setCampaign(System.String)">
+            <summary>
+            Name of the Campaign
+            Corresponds to the field CAMPAIGN of the RECORDING table
+            </summary>
+            <param name="pCampaign"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setRecordIDinCRMSystem(System.String)">
+            <summary>
+            ID of the customer record in the db of CRM-System
+            Corresponds to the field CRM_RECORD_ID of the RECORDING table
+            </summary>
+            <param name="pRecordID"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setData1(System.String)">
+            <summary>
+            Set the value of the dynamic data fields
+            Corresponds to the DATAx field of the RECORDING table
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setData2(System.String)">
+            <summary>
+            Set the value of the dynamic data fields
+            Corresponds to the DATAx field of the RECORDING table
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setData3(System.String)">
+            <summary>
+            Set the value of the dynamic data fields
+            Corresponds to the DATAx field of the RECORDING table
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setData4(System.String)">
+            <summary>
+            Set the value of the dynamic data fields
+            Corresponds to the DATAx field of the RECORDING table
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setData5(System.String)">
+            <summary>
+            Set the value of the dynamic data fields
+            Corresponds to the DATAx field of the RECORDING table
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.setVoiceFileID(System.String)">
+            <summary>
+            set the voice file id (synchronised)
+            </summary>
+            <param name="pVoiceFileID">voice file id</param>
+        </member>
+        <member name="M:vrc.TransactionSaver.getVoiceFileID">
+            <summary>
+            get the voice file id (synchronised)
+            </summary>
+            <returns>
+            voice file id if available
+            else: ""</returns>
+        </member>
+        <member name="M:vrc.TransactionSaver.setRecordingAvailable(System.Boolean)">
+            <summary>
+            set the recording available flag
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:vrc.TransactionSaver.isRecordingAvailable">
+            <summary>
+            indicate whether the recording available flag is set
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.TransactionSaver.saveIntoVRDatabase">
+            <summary>
+            save the transaction data in the VRC-Database 
+            afterwards, all the members (middle value) will be cleared
+            </summary>
+            <returns>succeed/fail</returns>
+        </member>
+        <member name="M:vrc.TransactionSaver.buildSQLUpldate">
+            <summary>
+            Help method to build the update statement to save transaction data
+            </summary>
+            <returns>SQL statement for update</returns>
+        </member>
+        <member name="M:vrc.TransactionSaver.writeToExportFile">
+            <summary>
+            Write the transaction data into export file
+            (bz. vrc db is unavailable) 
+            </summary>
+        </member>
+        <member name="M:vrc.TransactionSaver.buildSQLInsert(System.Int32)">
+            <summary>
+            Help method to build the insert statement to save transaction data
+            </summary>
+            <param name="mapID">the foreign key to the MAPPING table</param>
+            <returns>SQL statement for insertion</returns>
+        </member>
+        <member name="M:vrc.TransactionSaver.clearData">
+            <summary>
+            reset the members after saving the record in db
+            </summary>
+        </member>
+        <member name="M:vrc.TransactionSaver.ToString">
+            <summary>
+            Override the ToString() Method 
+            used for emergency export 
+            </summary>
+            <returns>transaction data as string</returns>
+        </member>
+        <member name="T:vrc.LDCClient">
+            <summary>
+            The LDCClient represents a specific connection between the client and the LDC-Server
+            </summary>
+        </member>
+        <member name="F:vrc.LDCClient.currentSession">
+            <summary>
+            hold the reference to the current session object bounded on the LDCClient
+            </summary>
+        </member>
+        <member name="F:vrc.LDCClient.ldcClientIPAddress">
+            <summary>
+            the ip address of the currently connected ldc client
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setCurAllowedLDCServer(vrc.ServerEntry)">
+            <summary>
+            assign the current allowed server which could handle the next command
+            </summary>
+            <param name="_curAllowedServer"></param>
+        </member>
+        <member name="M:vrc.LDCClient.isTranEnd">
+            <summary>
+            examine whether the transaction is ended
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setTranEnd(System.Boolean)">
+            <summary>
+            clear/set the end of transaction
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.processCommand(vrc.CommandObject)">
+            <summary>
+            Process the command by communicating with LDC-Server
+            </summary>
+            <param name="obj">Object to be added</param>
+            <returns>True if success, false otherwise</returns>
+        </member>
+        <member name="M:vrc.LDCClient.login">
+            <summary>
+            Start to login on LDC-Servers
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.loginOneServer(vrc.ServerEntry)">
+            <summary>
+            login on one LDC-Server
+            </summary>
+            <param name="ldcServer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:vrc.LDCClient.logout">
+            <summary>
+            Ends the connection to LDC-Server
+            Removed from Pool
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.startNewRecording">
+            <summary>
+            Start a new record explicitly. For every call, only one record is allowed
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.pauseRecording">
+            <summary>
+            Pause a recording
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.continueRecording">
+            <summary>
+            Continue a recording
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setOneWay">
+            <summary>
+            Switch to One-Way mode
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setTwoWay">
+            <summary>
+            Switch in Two-Way mode
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setInfoFlag">
+            <summary>
+            Set the info flag for a transaction
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.getVoiceFileID">
+            <summary>
+            Query the VoiceFile ID
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.saveRecordingData">
+            <summary>
+            Save the user's data
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.saveRecordingReference">
+            <summary>
+            Save the reference of user's data in the CRM-System
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.lostConnectionEvent(vrc.ServerEntry)">
+            <summary>
+            Called by the ConnectionGuard when the connection to LDC-Server is lost
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.reestablishConnection(vrc.ServerEntry)">
+            <summary>
+            Reconnect to the LDC-Server
+            </summary>
+        </member>
+        <member name="M:vrc.LDCClient.reportFail(vrc.VRCPCmd)">
+            <summary>
+            construct the fail message based on the VRCPCmd type
+            </summary>
+            <param name="cmd">VRCPCmd</param>
+            <returns>fail message</returns>
+        </member>
+        <member name="M:vrc.LDCClient.reportSuccess(vrc.VRCPCmd)">
+            <summary>
+            Construct the successful message based on the VRCPCmd type
+            </summary>
+            <param name="cmd">VRCPCmd</param>
+            <returns>sucessful message</returns>
+        </member>
+        <member name="M:vrc.LDCClient.sendCommand(vrc.LDCCmd,System.String)">
+            <summary>
+            Send a command to LDC-Server 
+            If error happens (timeout), the process will be repeated for predefined times
+            </summary>
+            <param name="req_categorieNumber">the requested command category</param>
+            <param name="req_message">the request's message</param>
+            <exception cref="!:VRCException.StopIndicationFailException"> thrown when stop indication failed</exception>
+        </member>
+        <member name="M:vrc.LDCClient.ERROR(System.String)">
+            <summary>
+            help method to throw the exeption of error while processing command
+            </summary>
+            <param name="errorMsg">if errorMsg exists (not null, Length > 0 ), write the errorMsg into log</param>
+        </member>
+        <member name="M:vrc.LDCClient.Dispose(System.Boolean)">
+             <summary>
+             Close Connection with LDC-Server 
+            (Count down connection number when necessary)
+             </summary>
+        </member>
+        <member name="M:vrc.LDCClient.processLogin(vrc.CommandObject,System.Boolean@)">
+            <summary>
+            This is a wrapper method which deals with Login only
+            The purpose is to keep a flag to notify whether login succeeds.
+            The connection to the Client will be closed when the fLoginSuccess
+             is set to false
+            </summary>
+            <param name="cmdObj">command object for login </param>
+            <param name="fLoginSuccess">mark whether loginsucess</param>
+            <returns>the reply string to client</returns>
+        </member>
+        <member name="M:vrc.LDCClient.isBounded">
+             <summary>
+             determine whether the LDCClient is bound to a client
+            
+             </summary>
+        </member>
+        <member name="M:vrc.LDCClient.setCurrentSession(vrc.Session)">
+            <summary>
+            Add the reference to the  bounded session object
+            It helps the Pool Optimizer to select idle LDCClient
+            Only LDCClient with no bounded session(session == null)
+            can be selected
+            </summary>
+            <param name="session">the session instance</param>
+        </member>
+        <member name="P:vrc.LDCClient.TrafficId">
+            <summary>
+            the actual traffic id in the transaction saver
+            </summary>
+        </member>
+        <member name="P:vrc.LDCClient.LastTrafficTime">
+            <summary>
+            the time when the last indication message of the current traffic arrives
+            </summary>
+        </member>
+        <member name="P:vrc.LDCClient.RecordingAvailable">
+            <summary>
+            indication of the bRecordingAvailable flag in the transaction saver
+            </summary>
+        </member>
+    </members>
+</doc>

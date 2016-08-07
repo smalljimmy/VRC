@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSVRCMonitoring" targetNamespace="http://tempuri.org/DSVCRMonitoring.xsd" xmlns:mstns="http://tempuri.org/DSVCRMonitoring.xsd" xmlns="http://tempuri.org/DSVCRMonitoring.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSVRCMonitoring" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSVRCMonitoring" msprop:Generator_DataSetName="DSVRCMonitoring" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ClientConnections" msprop:Generator_UserTableName="ClientConnections" msprop:Generator_RowDeletedName="ClientConnectionsRowDeleted" msprop:Generator_RowChangedName="ClientConnectionsRowChanged" msprop:Generator_RowClassName="ClientConnectionsRow" msprop:Generator_RowChangingName="ClientConnectionsRowChanging" msprop:Generator_RowEvArgName="ClientConnectionsRowChangeEvent" msprop:Generator_RowEvHandlerName="ClientConnectionsRowChangeEventHandler" msprop:Generator_TableClassName="ClientConnectionsDataTable" msprop:Generator_TableVarName="tableClientConnections" msprop:Generator_RowDeletingName="ClientConnectionsRowDeleting" msprop:Generator_TablePropName="ClientConnections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumberOfClientsConnected" msprop:Generator_UserColumnName="NumberOfClientsConnected" msprop:Generator_ColumnPropNameInRow="NumberOfClientsConnected" msprop:Generator_ColumnVarNameInTable="columnNumberOfClientsConnected" msprop:Generator_ColumnPropNameInTable="NumberOfClientsConnectedColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LDCServerConnections" msprop:Generator_UserTableName="LDCServerConnections" msprop:Generator_RowDeletedName="LDCServerConnectionsRowDeleted" msprop:Generator_RowChangedName="LDCServerConnectionsRowChanged" msprop:Generator_RowClassName="LDCServerConnectionsRow" msprop:Generator_RowChangingName="LDCServerConnectionsRowChanging" msprop:Generator_RowEvArgName="LDCServerConnectionsRowChangeEvent" msprop:Generator_RowEvHandlerName="LDCServerConnectionsRowChangeEventHandler" msprop:Generator_TableClassName="LDCServerConnectionsDataTable" msprop:Generator_TableVarName="tableLDCServerConnections" msprop:Generator_RowDeletingName="LDCServerConnectionsRowDeleting" msprop:Generator_TablePropName="LDCServerConnections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LDCServerName" msprop:Generator_UserColumnName="LDCServerName" msprop:Generator_ColumnPropNameInRow="LDCServerName" msprop:Generator_ColumnVarNameInTable="columnLDCServerName" msprop:Generator_ColumnPropNameInTable="LDCServerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfActiveCalls" msprop:Generator_UserColumnName="NumberOfActiveCalls" msprop:Generator_ColumnPropNameInRow="NumberOfActiveCalls" msprop:Generator_ColumnVarNameInTable="columnNumberOfActiveCalls" msprop:Generator_ColumnPropNameInTable="NumberOfActiveCallsColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

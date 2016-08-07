@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSVRCConfig" targetNamespace="http://tempuri.org/DSVCRConfig.xsd" xmlns:mstns="http://tempuri.org/DSVCRConfig.xsd" xmlns="http://tempuri.org/DSVCRConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSVRCConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSVRCConfig" msprop:Generator_DataSetName="DSVRCConfig" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LogWriter" msprop:Generator_UserTableName="LogWriter" msprop:Generator_RowDeletedName="LogWriterRowDeleted" msprop:Generator_RowChangedName="LogWriterRowChanged" msprop:Generator_RowClassName="LogWriterRow" msprop:Generator_RowChangingName="LogWriterRowChanging" msprop:Generator_RowEvArgName="LogWriterRowChangeEvent" msprop:Generator_RowEvHandlerName="LogWriterRowChangeEventHandler" msprop:Generator_TableClassName="LogWriterDataTable" msprop:Generator_TableVarName="tableLogWriter" msprop:Generator_RowDeletingName="LogWriterRowDeleting" msprop:Generator_TablePropName="LogWriter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PathFileName" msprop:Generator_UserColumnName="PathFileName" msprop:Generator_ColumnVarNameInTable="columnPathFileName" msprop:Generator_ColumnPropNameInRow="PathFileName" msprop:Generator_ColumnPropNameInTable="PathFileNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LogLevel" msprop:Generator_UserColumnName="LogLevel" msprop:Generator_ColumnVarNameInTable="columnLogLevel" msprop:Generator_ColumnPropNameInRow="LogLevel" msprop:Generator_ColumnPropNameInTable="LogLevelColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MailSender" msprop:Generator_UserTableName="MailSender" msprop:Generator_RowDeletedName="MailSenderRowDeleted" msprop:Generator_RowChangedName="MailSenderRowChanged" msprop:Generator_RowClassName="MailSenderRow" msprop:Generator_RowChangingName="MailSenderRowChanging" msprop:Generator_RowEvArgName="MailSenderRowChangeEvent" msprop:Generator_RowEvHandlerName="MailSenderRowChangeEventHandler" msprop:Generator_TableClassName="MailSenderDataTable" msprop:Generator_TableVarName="tableMailSender" msprop:Generator_RowDeletingName="MailSenderRowDeleting" msprop:Generator_TablePropName="MailSender">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServerName" msprop:Generator_UserColumnName="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Recipient" msprop:Generator_UserColumnName="Recipient" msprop:Generator_ColumnVarNameInTable="columnRecipient" msprop:Generator_ColumnPropNameInRow="Recipient" msprop:Generator_ColumnPropNameInTable="RecipientColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SmtpServerPort" msprop:Generator_UserColumnName="SmtpServerPort" msprop:Generator_ColumnVarNameInTable="columnSmtpServerPort" msprop:Generator_ColumnPropNameInRow="SmtpServerPort" msprop:Generator_ColumnPropNameInTable="SmtpServerPortColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientConnections" msprop:Generator_UserTableName="ClientConnections" msprop:Generator_RowDeletedName="ClientConnectionsRowDeleted" msprop:Generator_RowChangedName="ClientConnectionsRowChanged" msprop:Generator_RowClassName="ClientConnectionsRow" msprop:Generator_RowChangingName="ClientConnectionsRowChanging" msprop:Generator_RowEvArgName="ClientConnectionsRowChangeEvent" msprop:Generator_RowEvHandlerName="ClientConnectionsRowChangeEventHandler" msprop:Generator_TableClassName="ClientConnectionsDataTable" msprop:Generator_TableVarName="tableClientConnections" msprop:Generator_RowDeletingName="ClientConnectionsRowDeleting" msprop:Generator_TablePropName="ClientConnections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="portNumber" msprop:Generator_UserColumnName="portNumber" msprop:Generator_ColumnVarNameInTable="columnportNumber" msprop:Generator_ColumnPropNameInRow="portNumber" msprop:Generator_ColumnPropNameInTable="portNumberColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConnectionGuard" msprop:Generator_UserTableName="ConnectionGuard" msprop:Generator_RowDeletedName="ConnectionGuardRowDeleted" msprop:Generator_RowChangedName="ConnectionGuardRowChanged" msprop:Generator_RowClassName="ConnectionGuardRow" msprop:Generator_RowChangingName="ConnectionGuardRowChanging" msprop:Generator_RowEvArgName="ConnectionGuardRowChangeEvent" msprop:Generator_RowEvHandlerName="ConnectionGuardRowChangeEventHandler" msprop:Generator_TableClassName="ConnectionGuardDataTable" msprop:Generator_TableVarName="tableConnectionGuard" msprop:Generator_RowDeletingName="ConnectionGuardRowDeleting" msprop:Generator_TablePropName="ConnectionGuard">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PingInterval" msprop:Generator_UserColumnName="PingInterval" msprop:Generator_ColumnVarNameInTable="columnPingInterval" msprop:Generator_ColumnPropNameInRow="PingInterval" msprop:Generator_ColumnPropNameInTable="PingIntervalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LoginInterval" msprop:Generator_UserColumnName="LoginInterval" msprop:Generator_ColumnVarNameInTable="columnLoginInterval" msprop:Generator_ColumnPropNameInRow="LoginInterval" msprop:Generator_ColumnPropNameInTable="LoginIntervalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DownTime" msprop:Generator_UserColumnName="DownTime" msprop:Generator_ColumnPropNameInRow="DownTime" msprop:Generator_ColumnVarNameInTable="columnDownTime" msprop:Generator_ColumnPropNameInTable="DownTimeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ServerConnections" msprop:Generator_UserTableName="ServerConnections" msprop:Generator_RowDeletedName="ServerConnectionsRowDeleted" msprop:Generator_RowChangedName="ServerConnectionsRowChanged" msprop:Generator_RowClassName="ServerConnectionsRow" msprop:Generator_RowChangingName="ServerConnectionsRowChanging" msprop:Generator_RowEvArgName="ServerConnectionsRowChangeEvent" msprop:Generator_RowEvHandlerName="ServerConnectionsRowChangeEventHandler" msprop:Generator_TableClassName="ServerConnectionsDataTable" msprop:Generator_TableVarName="tableServerConnections" msprop:Generator_RowDeletingName="ServerConnectionsRowDeleting" msprop:Generator_TablePropName="ServerConnections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ServerList" msprop:Generator_UserColumnName="ServerList" msprop:Generator_ColumnVarNameInTable="columnServerList" msprop:Generator_ColumnPropNameInRow="ServerList" msprop:Generator_ColumnPropNameInTable="ServerListColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Timeout" msprop:Generator_UserColumnName="Timeout" msprop:Generator_ColumnVarNameInTable="columnTimeout" msprop:Generator_ColumnPropNameInRow="Timeout" msprop:Generator_ColumnPropNameInTable="TimeoutColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PoolOptimizer" msprop:Generator_UserTableName="PoolOptimizer" msprop:Generator_RowDeletedName="PoolOptimizerRowDeleted" msprop:Generator_RowChangedName="PoolOptimizerRowChanged" msprop:Generator_RowClassName="PoolOptimizerRow" msprop:Generator_RowChangingName="PoolOptimizerRowChanging" msprop:Generator_RowEvArgName="PoolOptimizerRowChangeEvent" msprop:Generator_RowEvHandlerName="PoolOptimizerRowChangeEventHandler" msprop:Generator_TableClassName="PoolOptimizerDataTable" msprop:Generator_TableVarName="tablePoolOptimizer" msprop:Generator_RowDeletingName="PoolOptimizerRowDeleting" msprop:Generator_TablePropName="PoolOptimizer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PollingInterval" msprop:Generator_UserColumnName="PollingInterval" msprop:Generator_ColumnVarNameInTable="columnPollingInterval" msprop:Generator_ColumnPropNameInRow="PollingInterval" msprop:Generator_ColumnPropNameInTable="PollingIntervalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectLifeTime" msprop:Generator_UserColumnName="ObjectLifeTime" msprop:Generator_ColumnVarNameInTable="columnObjectLifeTime" msprop:Generator_ColumnPropNameInRow="ObjectLifeTime" msprop:Generator_ColumnPropNameInTable="ObjectLifeTimeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LDCClient" msprop:Generator_UserTableName="LDCClient" msprop:Generator_RowDeletedName="LDCClientRowDeleted" msprop:Generator_RowChangedName="LDCClientRowChanged" msprop:Generator_RowClassName="LDCClientRow" msprop:Generator_RowChangingName="LDCClientRowChanging" msprop:Generator_RowEvArgName="LDCClientRowChangeEvent" msprop:Generator_RowEvHandlerName="LDCClientRowChangeEventHandler" msprop:Generator_TableClassName="LDCClientDataTable" msprop:Generator_TableVarName="tableLDCClient" msprop:Generator_RowDeletingName="LDCClientRowDeleting" msprop:Generator_TablePropName="LDCClient">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommandIteration" msprop:Generator_UserColumnName="CommandIteration" msprop:Generator_ColumnVarNameInTable="columnCommandIteration" msprop:Generator_ColumnPropNameInRow="CommandIteration" msprop:Generator_ColumnPropNameInTable="CommandIterationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="HoldingTime" msprop:Generator_UserColumnName="HoldingTime" msprop:Generator_ColumnVarNameInTable="columnHoldingTime" msprop:Generator_ColumnPropNameInRow="HoldingTime" msprop:Generator_ColumnPropNameInTable="HoldingTimeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TrafficDuration" msprop:Generator_UserColumnName="TrafficDuration" msprop:Generator_ColumnPropNameInRow="TrafficDuration" msprop:Generator_ColumnVarNameInTable="columnTrafficDuration" msprop:Generator_ColumnPropNameInTable="TrafficDurationColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TransactionSaver" msprop:Generator_UserTableName="TransactionSaver" msprop:Generator_RowDeletedName="TransactionSaverRowDeleted" msprop:Generator_RowChangedName="TransactionSaverRowChanged" msprop:Generator_RowClassName="TransactionSaverRow" msprop:Generator_RowChangingName="TransactionSaverRowChanging" msprop:Generator_RowEvArgName="TransactionSaverRowChangeEvent" msprop:Generator_RowEvHandlerName="TransactionSaverRowChangeEventHandler" msprop:Generator_TableClassName="TransactionSaverDataTable" msprop:Generator_TableVarName="tableTransactionSaver" msprop:Generator_RowDeletingName="TransactionSaverRowDeleting" msprop:Generator_TablePropName="TransactionSaver">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Dsn" msprop:Generator_UserColumnName="Dsn" msprop:Generator_ColumnVarNameInTable="columnDsn" msprop:Generator_ColumnPropNameInRow="Dsn" msprop:Generator_ColumnPropNameInTable="DsnColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ServerName" msprop:Generator_UserColumnName="ServerName" msprop:Generator_ColumnVarNameInTable="columnServerName" msprop:Generator_ColumnPropNameInRow="ServerName" msprop:Generator_ColumnPropNameInTable="ServerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_UserColumnName="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataBaseName" msprop:Generator_UserColumnName="DataBaseName" msprop:Generator_ColumnVarNameInTable="columnDataBaseName" msprop:Generator_ColumnPropNameInRow="DataBaseName" msprop:Generator_ColumnPropNameInTable="DataBaseNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ExportPathFileName" msprop:Generator_UserColumnName="ExportPathFileName" msprop:Generator_ColumnVarNameInTable="columnExportPathFileName" msprop:Generator_ColumnPropNameInRow="ExportPathFileName" msprop:Generator_ColumnPropNameInTable="ExportPathFileNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Connections" msprop:Generator_UserTableName="Connections" msprop:Generator_RowDeletedName="ConnectionsRowDeleted" msprop:Generator_RowChangedName="ConnectionsRowChanged" msprop:Generator_RowClassName="ConnectionsRow" msprop:Generator_RowChangingName="ConnectionsRowChanging" msprop:Generator_RowEvArgName="ConnectionsRowChangeEvent" msprop:Generator_RowEvHandlerName="ConnectionsRowChangeEventHandler" msprop:Generator_TableClassName="ConnectionsDataTable" msprop:Generator_TableVarName="tableConnections" msprop:Generator_RowDeletingName="ConnectionsRowDeleting" msprop:Generator_TablePropName="Connections">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LDCServers" msprop:Generator_UserColumnName="LDCServers" msprop:Generator_ColumnVarNameInTable="columnLDCServers" msprop:Generator_ColumnPropNameInRow="LDCServers" msprop:Generator_ColumnPropNameInTable="LDCServersColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Clients" msprop:Generator_UserColumnName="Clients" msprop:Generator_ColumnVarNameInTable="columnClients" msprop:Generator_ColumnPropNameInRow="Clients" msprop:Generator_ColumnPropNameInTable="ClientsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RemotingPortNumber" msprop:Generator_UserColumnName="RemotingPortNumber" msprop:Generator_ColumnPropNameInRow="RemotingPortNumber" msprop:Generator_ColumnVarNameInTable="columnRemotingPortNumber" msprop:Generator_ColumnPropNameInTable="RemotingPortNumberColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

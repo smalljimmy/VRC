@@ -1,0 +1,13 @@
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\VRConsole.exe.config
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\VRConsole.xml
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\VRConsole.exe
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\VRConsole.XmlSerializers.dll
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\VRConsole.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Release\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Release\VRConsole.exe
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Release\VRConsole.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Release\VRConsole.XmlSerializers.dll

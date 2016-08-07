@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="vrc._Thread" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAEAAAAAAAgAAAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>_Thread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Agent" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Communication" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABCCAGAAAAAgCAAgAAAgAAAAAAAAgAEAAAAAgIA=</HashCode>
+      <FileName>Communication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="vrc.Configuration">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAmEgEgDUQAAAAAQAEqIgASAQpAkJAQgQSiiASUACg=</HashCode>
+      <FileName>Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.ConfigurationProxy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfigurationProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="vrc.ConfigurationTest" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfigurationTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.ConnectionGuard" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEACJAQACAAAIAAAAhAIAFhAAAAQAAACEACAAA=</HashCode>
+      <FileName>ConnectionGuard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="vrc.LDCClient" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEIgiBgJIrBUAAEAGABgFCIIKAMDAAAgIKAAACxIEIA=</HashCode>
+      <FileName>LDCClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="vrc.LogWriter" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAAAAAAAAGAAAAAAAAABAGAQAEAAQAAAAA=</HashCode>
+      <FileName>LogWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.MailSender" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAQABAACAAAAAAAAAAgAAEQAAAAAAAAAA=</HashCode>
+      <FileName>MailSender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Monitoring" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AeAAAAAIKIAAABAABAAAABABAAAAAAAAAgAICACAAAA=</HashCode>
+      <FileName>Monitoring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.PoolManager" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgIABAAAAAAAAAAABBAAAAAJAQAAAQAAAAAA=</HashCode>
+      <FileName>PoolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.PoolObject" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PoolObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="vrc.PoolOptimizer" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAgAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>PoolOptimizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.RemotingService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RemotingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="vrc.Pars" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.LoginCmdPars" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAIAAIAAAFAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.SRRCmdPars" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAACAAAAAAAAAAAgAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.SRDCmdPars" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAgAAgEBAAAAAAAIBAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.SIFCmdPars" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.CommandObject" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAQAEAQEABAAAACAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Session" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAKAAAAAAAAAAAIQAAgCAAAEYAACAAAAAAFA=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.TransactionSaver" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkMAAgAIIAIISQEMgEADBBCJQEgYKGQAQEAMBCABIk=</HashCode>
+      <FileName>TransactionSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.VRCController">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAIAADAEEIQAAgAAAAiAAAAAAAABAAAAIQ=</HashCode>
+      <FileName>VRCController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.StateObject" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>VRCController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.StopIndicationFailedException" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VRCExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.TooManyRetryTimesException" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VRCExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Properties.Settings" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIABAAAABAIAAAAAAAECACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeBureau.StringEnum" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAgAAgAAAABAAAiAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>StringEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeBureau.StringValueAttribute" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>StringEnum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.VRCConfigService.VRCConfigService" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQACCACCAAAChBIgAQAAAJAAAAAiAIAQAAAAAE=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.VRCConfigService.GetConfigurationCompletedEventArgs" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.VRCConfigService.GetMonValuesCompletedEventArgs" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.VRCConfigService.UpdateConfigurationCompletedEventArgs" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vrc.Indication" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAhEIAQAAAAAAAQAAgAACAAAAAgAAAAAAAIABA=</HashCode>
+      <FileName>Indication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="vrc.IConfigurationListener" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IConfigurationListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="vrc.LDCCmd" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQEYFAAEKgHAQAJgQAABYAAJUBAsRAAUEAAQAIAUEE=</HashCode>
+      <FileName>LDCCmd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="vrc.VRCPCmd" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAgABAgBAAARBEQAYAAACFAgQAwAiAiQgAEYAAgEA=</HashCode>
+      <FileName>VRCPCmd.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="vrc.VRCConfigService.GetConfigurationCompletedEventHandler" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="vrc.VRCConfigService.GetMonValuesCompletedEventHandler" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="vrc.VRCConfigService.UpdateConfigurationCompletedEventHandler" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Web References\VRCConfigService\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

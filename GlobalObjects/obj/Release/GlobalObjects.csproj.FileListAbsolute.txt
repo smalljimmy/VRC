@@ -1,0 +1,96 @@
+D:\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+D:\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+D:\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.pdb
+D:\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+D:\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.pdb
+D:\VRCNEW\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+D:\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+D:\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRCNEW\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\bin\Release\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\bin\Release\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRCNEW\vrc\GlobalObjects\obj\Release\GlobalObjects.pdb
+C:\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.pdb
+C:\VRC_3.6\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\VRC_3.6\vrc\GlobalObjects\bin\Release\RemotingContract.pdb
+C:\VRC_3.6\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\VRC_3.6\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\VRC_3.6\vrc\GlobalObjects\obj\Release\GlobalObjects.pdb
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\bin\Release\GlobalObjects.pdb
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\bin\Release\RemotingContract.pdb
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Dokumente und Einstellungen\Administrator\Desktop\VRC_3.6\vrc\GlobalObjects\obj\Release\GlobalObjects.pdb
+C:\prj\VRC_18.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\prj\VRC_18.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\prj\VRC_18.6\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\prj\VRC_18.6\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\prj\VRC_18.6\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_18.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_18.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_18.6\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_18.6\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_18.6\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\prj\VRC_22.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\prj\VRC_22.6\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\prj\VRC_22.6\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\prj\VRC_22.6\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\prj\VRC_22.6\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\prj\VRC_06.30\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\prj\VRC_06.30\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\prj\VRC_06.30\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\prj\VRC_06.30\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\prj\VRC_06.30\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_06.30\VRC_06.30\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_06.30\VRC_06.30\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_06.30\VRC_06.30\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_06.30\VRC_06.30\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_06.30\VRC_06.30\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_07.14\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_09.09\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\GlobalObjects\bin\Release\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_12.09\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_6.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_6.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_6.10\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_6.10\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\WINNT5\Profiles\SZenghua\Desktop\VRC_6.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\WINNT5\Profiles\SZenghua\Desktop\VRC_6.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\WINNT5\Profiles\SZenghua\Desktop\VRC_6.10\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\WINNT5\Profiles\SZenghua\Desktop\VRC_6.10\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_14.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_14.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_14.10\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_14.10\vrc\GlobalObjects\obj\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_16.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll.config
+C:\Users\SZH\Desktop\VRC_07.14\VRC_16.10\vrc\GlobalObjects\bin\Release\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_07.14\VRC_16.10\vrc\GlobalObjects\obj\Release\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_07.14\VRC_16.10\vrc\GlobalObjects\obj\Release\GlobalObjects.dll

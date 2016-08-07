@@ -1,0 +1,10 @@
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\VRConsole.exe.config
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\VRConsole.exe
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\VRConsole.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\GlobalObjects.dll
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\RemotingContract.dll
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\RemotingContract.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\bin\Debug\GlobalObjects.pdb
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Debug\VRConsole.exe
+C:\Users\SZH\Desktop\VRC_3.6\VRC_3.6\vrc\VRCConsole\obj\Debug\VRConsole.pdb
